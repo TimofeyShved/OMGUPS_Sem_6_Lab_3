@@ -68,9 +68,9 @@
       </VBox>
    </bottom>
    <right>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="100.0" text="Посдедний элемент" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="200.0" text="Последний элемент" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
             <Label fx:id="lable1" alignment="TOP_CENTER" contentDisplay="CENTER" graphicTextGap="5.0" prefHeight="54.0" prefWidth="107.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
          </children>
       </VBox>

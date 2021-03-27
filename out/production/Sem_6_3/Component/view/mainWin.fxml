@@ -9,9 +9,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
-<?import sample.FloatField?>
+<?import Component.FloatField?>
 
-<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.172" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MainWinController">
+<BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.172" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Component.MainWinController">
    <center>
       <VBox alignment="CENTER" cache="true" nodeOrientation="LEFT_TO_RIGHT" BorderPane.alignment="CENTER">
          <children>
@@ -68,9 +68,9 @@
       </VBox>
    </bottom>
    <right>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="100.0" text="Посдедний элемент" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="200.0" text="Последний элемент" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
             <Label fx:id="lable1" alignment="TOP_CENTER" contentDisplay="CENTER" graphicTextGap="5.0" prefHeight="54.0" prefWidth="107.0" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" wrapText="true" />
          </children>
       </VBox>
