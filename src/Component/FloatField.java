@@ -12,7 +12,7 @@ public class FloatField extends TextField { // Создание кастомно
             if (s.getControlNewText().isEmpty()) // он пустой?
             return s;// да?! (」°ロ°)」 тогда верни его обратно! Немедленно!!!
             try {
-                Float.parseFloat(s.getControlNewText());// а если всё хорошо, то распарси его в строку
+                Float.parseFloat(s.getControlNewText());// а если всё хорошо, то распарси его во Float
                 return s; // и верни уже её (＾▽＾)
             } catch(NumberFormatException e){ // обработка исключений (￢_￢;)
                 return null;
