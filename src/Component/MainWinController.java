@@ -16,6 +16,8 @@ public class MainWinController{
     @FXML public TextField srznach;
     @FXML public Button button1;
     @FXML public Label lable1;
+    @FXML public Tovar tovar1;
+    @FXML public Tovar tovar2;
 
     //----------------------------------------------------------- действия ------------------------------------
 
@@ -26,6 +28,8 @@ public class MainWinController{
         itogo.setText("0");
         srznach.setText("0");
         lable1.setText("");
+        tovar1.setText("");
+        tovar2.setText("");
     }
 
     //--------------------------------------обновления полей
@@ -36,6 +40,10 @@ public class MainWinController{
         srz = (srz+Float.parseFloat("0"+item2.getText()))/2;
         itogo.setText(Float.toString(sum));
         srznach.setText(Float.toString(srz));
+        tovar1.setPrice(item1.getText());
+        tovar2.setPrice(item2.getText());
+        tovar1.setText(tovar1.toString());
+        tovar2.setText(tovar2.toString());
     }
 
     // ---------------------------------- действия при инициализации
@@ -53,5 +61,8 @@ public class MainWinController{
         item2.setOnMouseClicked(event -> lable1.setText("Товар 2"));// действие, при нажатии на мышки
         itogo.setOnMouseClicked(event -> lable1.setText("Всего"));// действие, при нажатии на мышки
         srznach.setOnMouseClicked(event -> lable1.setText("Среднее"));// действие, при нажатии на мышки
+
+        tovar1.setName("Товар 1");
+        tovar2.setName("Товар 2");
     }
 }

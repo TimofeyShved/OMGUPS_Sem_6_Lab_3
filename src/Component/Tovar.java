@@ -1,6 +1,8 @@
 package Component;
 
-public class Tovar { // наш класс, в котором есть
+import javafx.scene.control.Label;
+
+public class Tovar extends Label { // наш класс, в котором есть
     //----------------------------------------------------------- переменные
     private String name; // имя
     private String price; // и цена
@@ -15,6 +17,6 @@ public class Tovar { // наш класс, в котором есть
 
     @Override
     public String toString() {
-        return name+" "+price;
-    } // вернеуть сторчку цены и имени
+        return "Имя товара ("+name+") - его цена: "+price;// вернеуть сторчку цены и имени
+    }
 }

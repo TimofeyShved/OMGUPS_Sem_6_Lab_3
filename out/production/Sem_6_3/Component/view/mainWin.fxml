@@ -11,6 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import Component.FloatField?>
 
+<?import Component.Tovar?>
 <BorderPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.172" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Component.MainWinController">
    <center>
       <VBox alignment="CENTER" cache="true" nodeOrientation="LEFT_TO_RIGHT" BorderPane.alignment="CENTER">
@@ -25,6 +26,8 @@
                   <FloatField fx:id="item2" alignment="CENTER_RIGHT" onAction="#init" onKeyPressed="#init" />
                </graphic>
             </Label>
+            <Tovar fx:id="tovar1"/>
+            <Tovar fx:id="tovar2"/>
          </children>
          <effect>
             <Blend />
